@@ -1,0 +1,62 @@
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar{
+    background-color: #6b0606;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #6b0606;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #eb3535c4;
+}
+
+.section-title{
+    font-family: Pacifico, cursive;
+}
+
+#sobre-flamengo,
+#ft-hist{
+    background-color: #ffeae6;
+}
+
+.text-colored{
+    color: #6b0606;
+}
+
+.nav-ft-hist .nav-link.active,
+#fale-conosco button{
+    background-color: #6b0606;
+    color: #fff;
+}
+
+.nav-ft-hist .nav-link:hover{
+    color: #6b0606;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}

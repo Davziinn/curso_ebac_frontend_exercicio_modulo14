@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do Flamengo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand section-title m-0">Site do Flamengo</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-flamengo" class="nav-link active" aria-current="page">Sobre o Flamengo</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#ct" class="nav-link">Centro Treinamento</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#ft-hist" class="nav-link">Fotos Históricas</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">Fale Conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-flamengo">
+            <div class="carousel slide" id="carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./images/carousel/flamengoTime.jpg" class="d-block w-100" alt="Time do Flamengo">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./images/carousel/urubuMascote.jpg" class="d-block w-100" alt="Mascote do Flamengo">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./images/carousel/flamengoBarco.jpg" class="d-block w-100" alt="Barco do Flamengo">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/ct/campoCt.jpg" class="d-block w-100 rounded" alt="Centro de Treinamento">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre o <span class="text-colored">Flamengo</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptatum natus quo distinctio perferendis commodi sed accusantium quae! Praesentium, nemo beatae nulla nobis accusamus repudiandae minima. Culpa totam autem a.
+                            </p>
+                            <h3 class="section-title">Sobre o <span class="text-colored">Centro de Treinamento</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eos modi vel laudantium sapiente provident natus optio quasi sequi alias? Quo qui optio ad eos laborum dolorem asperiores veniam fuga?
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ct" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Confira o <span class="text-colored">Centro de Treinamentos</span> do <span class="text-colored">Flamengo</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="./images/cardapio/gavea/entradaCt.webp" class="d-block w-100" alt="Entrada do Centro de Treinamento">
+                        <h3 class="section-title text-colored fs-4">Entrada do Centro de Treinamento</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime facere cum eveniet quae consequatur pariatur neque vitae nulla, nam ullam error soluta velit modi obcaecati earum similique molestiae voluptatibus nobis.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/cardapio/gavea/faxadaCt.jpeg" class="d-block w-100 pb-2" alt="Fachada do Centro de Treinamento">
+                        <h3 class="section-title text-colored fs-4">Outro Ângulo</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis commodi aut voluptatibus, animi fugit maiores ea, iusto fugiat perferendis possimus unde magnam vero quia ab consequatur quidem laboriosam excepturi dolorem.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/cardapio/gavea/gavea.webp" class="d-block w-100" alt="Campo de Treinamento">
+                        <h3 class="section-title text-colored fs-4">Campo de Treinamento</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat enim eaque totam consequuntur harum commodi tempore repudiandae cupiditate architecto nostrum veniam illo, ducimus iste dolorem, exercitationem alias vitae tenetur accusamus!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ft-hist" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Fotos <span class="text-colored">Históricas</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-ft-hist">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#idolos" class="nav-link fw-bold text-start text-colored">Ídolos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#jogadores" class="nav-link fw-bold text-start text-colored">Jogadores 2024</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#titulos" class="nav-link fw-bold text-start text-colored">Títulos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#maraca" class="nav-link fw-bold text-start text-colored">Estádio</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#gavea" class="nav-link fw-bold text-start text-colored">Gávea</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane" id="idolos">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="./images/cardapio/idolos/gabBh.jpg" class="d-block w-100" alt="Gabigol e BH27">
+                                        <h5 class="text-colored fw-bold mt-2">GabiGol e BH27</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./images/cardapio/idolos/idoloTodos.jpg" class="d-block w-100" alt="Todos os ídolos">
+                                        <h5 class="text-colored fw-bold mt-2">Os Maiores</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./images/cardapio/idolos/zico.jpg" class="d-block w-100" alt="Zico">
+                                        <h5 class="text-colored fw-bold mt-2">ZICO</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="jogadores">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="./images/cardapio/jogadoresAtuais/bh.jpg" class="d-block w-100" alt="Bruno Henrique">
+                                        <h5 class="text-colored fw-bold mt-2">Bruno Henrique</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./images/cardapio/jogadoresAtuais/gabArrasca.jpg" class="d-block w-100" alt="Gabigol e Arrascaeta">
+                                        <h5 class="text-colored fw-bold mt-2">Gabigol e Arrascaeta</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./images/cardapio/jogadoresAtuais/predro.jpg" class="d-block w-100" alt="Pedro">
+                                        <h5 class="text-colored fw-bold mt-2">Pedro</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="titulos">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/cardapio/titulos/titulos.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Títulos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/cardapio/titulos/titulos2.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Títulos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/cardapio/titulos/titulos3.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Títulos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="maraca">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/cardapio/maraca/torcida1.jpeg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Torcida</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/cardapio/maraca/torcida2.jpeg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Torcida</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/cardapio/maraca/torcida3.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Torcida</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="gavea">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/cardapio/gavea/entradaCt.webp" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Entrada Centro Treinamento</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/cardapio/gavea/faxadaCt.jpeg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Faxada Centro Treinamento</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./images/cardapio/gavea/gavea.webp" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Campo Centro Treinamento</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Seja <span class="text-colored">Socio</span></h2>
+                </div>
+                <div class="row d-flex justify-content-between">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu email:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone:</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea name="mensagem" id="mensagem" class="form-control"></textarea>
+                            </div>
+                            <button type="button" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Rede sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua 123, Cidade XYZ, Estado ABC - CEP 12345-678
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
